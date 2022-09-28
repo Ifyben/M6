@@ -1,0 +1,35 @@
+{
+  "name": "m6-db",
+  "version": "1.0.0",
+  "description": "Shopping Cart API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ifyben/M6.git"
+  },
+  "author": "Beauty Azubuike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ifyben/M6/issues"
+  },
+  "homepage": "https://github.com/Ifyben/M6#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-list-endpoints": "^6.0.0",
+    "mongoose": "^6.6.2",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.23.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2",
+    "nodemon": "^2.0.7"
+  }
+}
